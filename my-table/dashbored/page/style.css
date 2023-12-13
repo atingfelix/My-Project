@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    background: rgb(252, 244, 232);
+    padding: 20px;
+    width: 100%;
+}
+
+.flex-box{
+    display: flex;
+
+}
+
+.prog{
+    outline-width: 1px ;
+    outline-color: lightgreen;
+    outline-style: solid;
+    border-radius: 10px;
+}
+
+.prog span{
+   
+    padding: 1px;
+    border-radius: 10px;
+
+}
+
+.review{
+    flex: 2;
+   position: relative;
+
+}
+
+video{
+    width: 100%;
+    margin-right: 35%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.top-bar {
+   display: flex;
+   position: absolute;
+   gap: 15px;
+   right: 0;
+  top: 1%;
+   
+}
+
+.top-bar a{
+    font-size: 18px;
+    color: grey;
+}
+
+
+.review h1{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.rev1{
+    
+    padding: 15px;
+    margin-left: -15px;
+    font-size: 18px;
+    
+}
+
+
+.review-head i{
+    color: yellow;
+    font-size: 15px;
+}
+
+.progress{
+    flex: 1;
+    padding: 30px;
+    margin-right: 2%;
+    
+}
+
+
+.pro-file{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 100%;
+    gap: 10;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.pro-file h1{
+    font-size: 22px;
+    padding: 10px;
+}
+
+
+.pro-file p{
+    font-size: 15px;
+    padding: 10px;
+  
+}
+
+.gap2{
+    position: absolute;
+    right: 3%;
+}
+
+.pro-file span{
+    padding-left: 40%;
+}
+
+
+.courses{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.vid{
+    display: flex;
+    gap: 10px;
+    font-size: 22px;
+    padding: 10px;
+}
+
+.gap1{
+    position: absolute;
+    right: 2%;
+}
+
+.gap1 i{
+    color: lightgreen;
+}
+
+.pro{
+    background: white;
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 10px;
+}
+
+.pro i{
+    background-color: white;
+    padding: 5px;
+    border-radius: 60%;
+}
+
+.gap{
+    display: flex;
+    right: 5%;
+    position: absolute;
+}
+
+
+.pro {
+    display: flex;
+    gap: 10px;
+    
+
+}
+
+.pro:hover{
+    background: lightgreen;
+}
+
+.pro, .gap:nth-last-child(2){
+    background: lightgray;
+    width: 90%;
+    padding: 15px 15px;
+}
+
+
+.audio{
+    background: white;
+    padding: 10px;
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 12px;
+    
+}
+
+.gap3{
+    position: absolute;
+    right: 2%;
+}
+
+.gap3 i{
+    color: lightgreen;
+}
+
+
+.module{
+    background: white;
+    padding: 10px;
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 12px;
+    
+}
+
+.down-section {
+    display: flex;
+    gap: 15px;
+    
+    
+}
+
+.down-section a{
+    text-decoration: none;
+}
+
+.down-section a:nth-child(1):hover{
+    text-decoration: underline;
+}
+
+.down-section a:nth-child(2):hover{
+    text-decoration: underline;
+}
+
+.down-section a:nth-child(3):hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1110px) {
+
+    
+
+    .container{
+        background: grey;
+        margin: auto;
+    
+    }
+    
+    .flex-box{
+        display: block;
+        width: 100%;
+    }
+
+    .progress{
+        margin-right: 13%;
+    }
+
+
+    .top-bar {
+        display: flex;
+        position: absolute;
+        gap: 15px;
+        right: 10%;
+       top: 1%;
+        
+     }
+
+     .top-bar a{
+        font-size: 18px;
+        color: black;
+    }
+    
+
+    video{
+        width: 90%;
+       
+    }
+     
+
+    .rev1{
+    
+        padding: 10px;
+        margin-left: -10px;
+        font-size: 15px;
+        
+    }
+
+    .review h1{
+        font-size: 22px;
+    }
+    
+    
+    .pro{
+       
+        width: 92%;
+        padding: 10px;
+    
+    }
+    
+}
+
+

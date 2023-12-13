@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+
+.logo img{
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 100%;
+    margin-bottom: 10px;
+}
+
+.logo{
+    overflow: hidden;
+}
+
+
+.menu-bar{
+    position: sticky;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background:#0b0c10;
+    height: 110vh;
+    width: 52px;
+    padding: 0 10px;
+    transition: all 0.5s;
+    overflow: hidden;
+}
+
+.menu-bar:hover{
+ width: 20%;
+ transition: 0.8s;
+}
+
+
+body{
+    display: flex;
+}
+
+ul li{
+    padding: 20px;
+    color: #fff;
+    margin-top: 10px 10;
+}
+
+ul li:hover{
+    background: red;
+    border-radius: 10px;
+}
+
+
+ul li a{
+    color: #fff;
+}
+
+ul a{
+   display: flex;
+   gap: 10px;
+}
+
+ul i{
+    font-size: 20px;
+}
+
+.sign-out{
+    position: absolute;
+    bottom: 0;
+    background: red;
+    width: 80%;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+
+ul{
+    height: 88vh;
+    position: relative;
+    width: 75%;
+
+}
+
+
+ ul a span{
+    overflow: hidden;
+}
+
+
+
+.content-main{
+    background-image: url(../dashbored/bg.jpg);
+    width: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+
+.content h1{
+    margin-top: 150px;
+    font-size: 25px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #0c012f;
+    padding: 30px;
+    color: #fff;
+}
+
+
+
+
+
+/* header style for css start here, this includes profile serach bar 
+and welcome note */
+
+
+
+.header-main{
+    display: flex;
+    justify-content: space-between;
+    background: #c5c6c7;
+    padding: 5px 20px;
+    border-radius: 8px;
+    width: 94%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    box-shadow: 2px 1px 5px 5px #a09d9d;
+}
+
+.image-profile img{
+    width: 50px;
+    border-radius: 60%;
+
+}
+
+
+.header-title h1{
+    color: #0c012f;
+    font-size: 25px;
+}
+
+
+
+.header-title span{
+    color: #0c012f;
+    font-size: 18px;
+    letter-spacing: 4px;
+    display: block;
+    padding-bottom: 5px;
+}
+
+
+
+
+
+.profile-info{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+
+.search-box{
+    position: relative;
+}
+
+
+
+.search-box input{
+    padding: 8px;
+    background: transparent;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 15px;
+    /* width: 90%; */
+    
+}
+
+
+.search-box button{
+    padding: 7px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #0c012f;
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid grey;
+    
+}
+
+
+.search-box button:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+/* my card design start here */
+
+
+
+.card-container{
+    background: #1f2833;
+    margin-top: 15px;
+    width: 94%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 20px;
+    border-radius: 8px;
+    box-shadow: 5px 10px 10px 5px grey;
+    height: 200px;
+}
+
+
+
+.card-container h1{
+    color: #f7f7f7;
+    font-size: 20px;
+    margin-bottom: 5px;
+
+}
+
+
+.card-flex{
+    display: flex;
+    gap: 2rem;
+}
+
+
+.student-card{
+    background:rgb(180, 189, 190);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 23.5%;
+    height: 120px;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0px 2px 3px 1px grey;
+
+    
+}
+
+
+
+.student-card:hover{
+    transform: translate(-5px);
+    cursor: pointer;
+}
+ 
+
+.card-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.passcode{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.icon{
+    font-size: 22px;
+    background: #0c012f;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+.card-header .icon:nth-child(1){
+    border-radius: 40px;
+    background: red;
+}
+
+
+.card-flex >.student-card:nth-child(4){
+    background: rgb(146, 150, 153);
+}
+
+
+.card-flex >.student-card:nth-child(1){
+    /* background: rgb(85, 69, 122); */
+
+    background: rgb(from color grey lightgrey );
+}
+
+
+.card-flex >.student-card:nth-child(3){
+    background: rgb(141, 117, 119);
+    
+}
+
+
+.card-flex >.student-card:nth-child(2){
+    background: rgb(124, 113, 114);
+    
+}
+
+
+
+/* assignment section styling start here */
+
+
+.assignment-container h1{
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.assignment-container{
+    background: #c5c6c7;
+    margin-top: 15px;
+    width: 94%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 20px 20px;
+    border-radius: 8px;
+    /* box-shadow: 5px 10px 10px 5px grey; */
+    
+}
+
+
+.top-image img{
+    width: 60px;
+    border-radius: 70%;
+}
+
+
+.assignment-flex{
+    display: flex;
+}
+
+.assignment-subject{
+ 
+    flex: 1.4;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 5px 3px 10px 0px #0c012f;
+    height: 70px;
+    align-items: center;
+    border-radius: 10px;
+    border-left: 3px solid #0c012f;
+    background: #45a29e;
+    gap: 5rem;
+    
+}
+
+
+.top-score{
+
+    flex: 0.8;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 5px 3px 10px 0px #0c012f;
+    align-items: center;
+    border-radius: 10px;
+    border-right: #0c012f solid 3px;
+    border-left: #0c012f solid 4px;
+    margin-left: 10px;
+
+}
+
+
+.courses h3{
+    font-size: 15px;
+    padding-bottom: 6px;
+    font-weight: bold;
+}
+
+
+.topic{
+    font-size: 12px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: italic;
+   font-weight: bold;
+}
+
+
+.btn-btn{
+    background: #07da5b;
+    padding: 8px;
+    border-radius: 10px;
+    font-weight: bold;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.No{
+    font-size: 15px;
+    padding: 10px;
+    background: #0b0c10;
+    color: #c5c6c7;
+    border-radius: 70%;
+    font-weight: bold;
+}
+
+
+.mark{
+    padding: 5px;
+    background: #0b0c10;
+    color: #c5c6c7;
+    border-radius: 5px;
+}
+
+
+.assign{
+    font-size: 12px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.redcolor{
+    /* background: rgb(38, 38, 204); */
+
+background: rgb(104, 7, 4);
+
+}
+
+
+.bluecolor{
+    background: rgb(128, 104, 248);
+}
+
+
+
+
+
+
+
+
+
+/* my self icon colour created by me */
+
+
+.light-red{
+    background: rgb(107, 91, 91);
+}
+
+
+.light-green{
+    background: rgb(182, 233, 182);
+}
+
+.light-blue{
+    background: rgb(104, 109, 133);
+}
+
+
+
+.light-red1{
+    background: rgb(214, 162, 162);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

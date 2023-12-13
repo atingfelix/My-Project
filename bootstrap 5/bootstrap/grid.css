@@ -1,0 +1,47 @@
+/* .container{
+    display: grid;
+    grid-template-columns: 700px 200px 400px;
+    justify-content: center;
+    background: gray;
+
+}
+
+.header{
+  
+    background: blue;
+    padding: 10px;
+   height: 10px;
+}
+
+.side-bar{
+    background: #4b0940;
+    height: 300px;
+}
+
+.content-1{
+    background: red;
+}
+
+.content-2{
+    background: #09314b;
+}
+
+.content-3{
+    background: #4b0940;
+    height: 200px;
+}
+
+.footer{
+    background: #423c41;
+    height: 30px;
+    
+    
+}
+
+.layout{
+    display: grid;
+    grid-template-columns: 100px 300px ;
+    gap: 10px;
+} */
+
+

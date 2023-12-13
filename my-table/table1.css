@@ -1,0 +1,35 @@
+.container{
+    width: 60%;
+    margin: auto;
+    padding-top: 40px;
+}
+
+table, td, th{
+    border: 1px solid ;
+    border-collapse: collapse;
+}
+
+table{
+    width: 100%;
+}
+
+th{
+    background-color: dodgerblue;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+ 
+}
+
+th,td{
+    padding: 10px;
+}
+
+caption{
+    background-color: yellow;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}

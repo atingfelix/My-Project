@@ -1,0 +1,257 @@
+body{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-image: url(../image/digital\ 3.jpeg);
+ }
+ 
+ .container{
+  width: 50%;
+  margin: auto;
+  padding: 40px;
+  color: white;
+ }
+ 
+ .container h1{
+     font-size: 40px;
+ }
+ 
+ input[type="text"]{
+     width: 40%;
+     padding: 10px;
+     border-radius: 15px;
+     border: 2px solid gray;
+ }
+ 
+ input[type="text"]:focus{
+     outline: none;
+ }
+ 
+ 
+ input[type="tel"]{
+     width: 40%;
+     padding: 10px;
+     border-radius: 15px;
+     border: 2px solid gray;
+ }
+ 
+ input[type="tel"]:focus{
+     outline: none;
+ }
+ 
+ input[type="password"]{
+     width: 40%;
+     padding: 10px;
+     border-radius: 15px;
+     border: 2px solid gray;
+ }
+ 
+ input[type="password"]:focus{
+     outline: none;
+ }
+ 
+ 
+ input[type="date"]{
+     width: 30%;
+     padding: 10px;
+     border-radius: 15px;
+     border: 2px solid gray;
+ }
+ 
+ input[type="date"]:focus{
+     outline: none;
+ }
+ 
+ input[type="file"]{
+     width: 30%;
+     padding: 10px;
+     border-radius: 15px;
+     border: 2px solid gray;
+ }
+ 
+ input[type="reset"]{
+     width: 15%;
+     padding: 6px;
+     border-radius: 15px;
+     border: 2px solid gray;
+ }
+ 
+ input[type="Submit"]{
+     width: 15%;
+     padding: 6px;
+     border-radius: 15px;
+     border: 2px solid gray;
+     
+ }
+ 
+ textarea{
+     resize: none;
+     padding: 5px;
+     background: transparent;
+     width: 60%;
+     color: white;
+ }
+ 
+ textarea:focus{
+     outline: none;
+ }
+ 
+ label{
+     font-size: 15px;
+     text-transform: capitalize;
+     color: white;
+ }
+ 
+ select{
+     width: 40%;
+     padding: 10px;
+     border-radius: 15px;
+     
+ }
+ 
+ select:focus{
+     outline: none;
+ }
+ 
+ 
+ .label-text{
+     font-size: 20px;
+     font-weight: bold;
+ }
+ 
+ ::placeholder{
+     font-size: 18px;
+     font-family: 'Times New Roman', Times, serif;
+ }
+ 
+ 
+ 
+ 
+ 
+ /* my responsiveness begins here */
+ 
+ 
+ 
+ 
+ @media (max-width:1193px) {
+ 
+ 
+     .container{
+         background-image: url(../image/digital\ 5.jpeg);
+ 
+ 
+     }
+ 
+     .container h1{
+         font-size: 25px;
+         color: white;
+         
+     }
+ 
+ 
+ 
+     .label-text{
+         font-size: 15px;
+         font-weight: bold;
+     }
+     
+ 
+     label{
+         font-size: 14px;
+       
+     }
+     
+ 
+ 
+     
+     
+     input[type="text"]{
+         width: 100%;
+       
+     }
+ 
+ 
+     input[type="password"]{
+         width: 100%;
+       
+     }
+ 
+ 
+ 
+     input[type="tel"]{
+         width: 100%;
+       
+     }
+ 
+ 
+     select{
+         width: 100%;
+          
+     }
+ 
+ 
+     input[type="date"]{
+         width: 60%;
+         padding: 5px 10px;
+  
+     }
+ 
+ 
+     input[type="file"]{
+         width: 70%;
+         padding: 5px 10px;
+   
+     }
+ 
+ 
+     
+     textarea{
+         width: 100%;
+ 
+     }
+ 
+ 
+     input[type="Submit"]{
+         width: 50%;
+       
+     }
+ 
+ 
+     
+     input[type="Submit"]{
+     margin-bottom: 5px;
+       
+     }
+ 
+ 
+ 
+ 
+ 
+     
+     input[type="reset"]{
+         width: 50%;
+       
+     }
+ 
+ 
+     input[type="radio" ]{
+         width: 100%;
+     }
+ 
+ 
+ 
+ 
+ 
+ 
+     
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
